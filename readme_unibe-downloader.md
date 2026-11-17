@@ -511,3 +511,8 @@ werden; Drive wird dabei nicht verändert.
 ## Maintenance 2026-10-13
 
 rclone user executable updated to 1.75.2. Native virtual environment dependencies refreshed within project compatibility limits; pypdf added to server requirements for the existing PDF feature. 50 tests passed; private HTML export test has the same missing fixture failure in both old/new environments and was excluded from the clean run. Reportlab stays on latest compatible <5 and mpmath remains constrained by Sympy. Auxiliary .python-packages soupsieve refreshed. At the time of this dependency update the recorder was not restarted and archive/indexes were unchanged. Later on 2026-10-13 the retention change was deployed: after a 52-file Drive hash check, local Lecture artifacts were removed, podcast upload markers updated, and the recorder restarted with immediate raw-recording cleanup. About 14 GB of local storage was reclaimed; no Drive archive files were deleted. Rollback uses .venv-before-20261013 and executable backups at /var/backups/server-update-20261013/; keep current archives and authentication state.
+
+
+## Private GitHub repository (2026-11-17)
+
+A private, reviewed source or configuration snapshot is available at `https://github.com/Noxist/unibe-downloader` on `main`. The publication checkout is separate from the live working copy. Runtime data, secrets and other private material are excluded; any substituted placeholders and deployment limitations are documented in the repository. For updates review each changed file, run relevant isolated checks and secret scanning, push only a fast-forward, and verify the GitHub commit and tree. Do not overwrite or merge the live working history.
