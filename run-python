@@ -1,0 +1,4 @@
+#!/bin/sh
+PYTHONPATH=/home/leandro/services/unibe-downloader/.python-packages${PYTHONPATH:+:$PYTHONPATH}
+export PYTHONPATH
+exec /usr/bin/python3 "$@"

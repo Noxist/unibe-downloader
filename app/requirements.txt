@@ -1,0 +1,6 @@
+playwright>=1.51,<2
+beautifulsoup4>=4.13,<5
+pypdf>=5,<7
+Pillow>=11,<13
+PySide6-Essentials>=6.8,<7
+paramiko>=3.5,<5

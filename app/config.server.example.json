@@ -1,0 +1,28 @@
+{
+  "output": "/var/lib/ilias-downloader/staging/1. Semester",
+  "state_file": "/var/lib/ilias-downloader/auth/session.json",
+  "auth_command": ["/REPLACE/WITH/EXISTING/EDUID/AUTOMATION"],
+  "auth_cwd": "/REPLACE/WITH/EXISTING/AUTOMATION/DIRECTORY",
+  "auth_timeout_seconds": 300,
+  "drive_remote": "REPLACE_REMOTE:Uni Bern/1. Semester",
+  "drive_root_folder_id": "REPLACE_ARCHIVE_ROOT_FOLDER_ID",
+  "notebooklm_drive_remote": "REPLACE_REMOTE:Notebooklm",
+  "notebooklm_drive_root_folder_id": "REPLACE_NOTEBOOKLM_ROOT_FOLDER_ID",
+  "transcription_model": "turbo",
+  "transcription_language": "de",
+  "delay_seconds": 0.25,
+  "max_pages": 500,
+  "remarkable_auto": false,
+  "courses": [
+    {"ref_id": 3687729, "name": "Einführung in die Rechtswissenschaft", "podcast_ref": 3762437},
+    {"ref_id": 3687719, "name": "Völkerrecht"},
+    {"ref_id": 3687725, "name": "Öffentliches Recht I - Staatsorganisationsrecht"},
+    {"ref_id": 3687731, "name": "Öffentliches Recht I - Grundrechte", "podcast_ref": 3762440},
+    {"ref_id": 3723286, "name": "Strafrecht I", "podcast_ref": 3813998,
+     "notebooklm_extra_sources": ["Übungen Strafrecht I__3723279"]},
+    {"ref_id": 3723279, "name": "Übungen Strafrecht I"},
+    {"ref_id": 3721432, "name": "Privatrecht I - OR Allgemeiner Teil 1", "podcast_ref": 3810986,
+     "notebooklm_extra_sources": ["Übungen in Privatrecht I - OR Allgemeiner Teil 1__3729453"]},
+    {"ref_id": 3729453, "name": "Übungen in Privatrecht I - OR Allgemeiner Teil 1"}
+  ]
+}

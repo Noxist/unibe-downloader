@@ -1,0 +1,13 @@
+[Unit]
+Description=ILIAS course and podcast downloader
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/leandro/services/unibe-downloader
+Environment=TZ=Europe/Zurich
+Environment=PYTHONUTF8=1
+UMask=0077
+ExecStart=/home/leandro/services/unibe-downloader/.venv/bin/python /home/leandro/services/unibe-downloader/app/server_sync.py --config /home/leandro/services/unibe-downloader/app/config.server.json
+TimeoutStartSec=6h
