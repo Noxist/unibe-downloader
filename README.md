@@ -1,6 +1,6 @@
 # UniBE Downloader and Lecture Recorder
 
-Course download and lecture recording tools. See [operational documentation](readme_unibe-downloader.md) for deployment, scheduling, persistence, credentials and recovery.
+Course download and lecture recording tools. See [operational documentation](unibe-downloader_readme.md) for deployment, scheduling, persistence, credentials and recovery.
 
 For updates review and copy only source files to this separate checkout, exclude user files, credentials, live state and logs, run isolated tests and a secret scan, then fast-forward and verify the remote tree. Do not interrupt a recording.
 
