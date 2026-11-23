@@ -516,3 +516,7 @@ rclone user executable updated to 1.75.2. Native virtual environment dependencie
 ## Private GitHub repository (2026-11-17)
 
 A private, reviewed source or configuration snapshot is available at `https://github.com/Noxist/unibe-downloader` on `main`. The publication checkout is separate from the live working copy. Runtime data, secrets and other private material are excluded; any substituted placeholders and deployment limitations are documented in the repository. For updates review each changed file, run relevant isolated checks and secret scanning, push only a fast-forward, and verify the GitHub commit and tree. Do not overwrite or merge the live working history.
+
+## PPTX-Konvertierung: Prüfstand 2026-11-23
+
+LibreOffice Impress 7.3.7 wurde nach Reparatur der Paketkonfiguration durch den Betreiber installiert. Eine künstliche PPTX-Datei wurde über `notebooklm_export.convert_office` in ein PDF konvertiert; PDF-Validierung, Seitenzahl und Textprüfung bestanden. Der zuvor fehlgeschlagene produktive ILIAS-Lauf wurde nicht wiederholt; der nächste reguläre Lauf und die Verarbeitung der tatsächlich betroffenen Datei bleiben zu überprüfen.
