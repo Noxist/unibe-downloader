@@ -520,3 +520,5 @@ A private, reviewed source or configuration snapshot is available at `https://gi
 ## PPTX-Konvertierung: Prüfstand 2026-11-23
 
 LibreOffice Impress 7.3.7 wurde nach Reparatur der Paketkonfiguration durch den Betreiber installiert. Eine künstliche PPTX-Datei wurde über `notebooklm_export.convert_office` in ein PDF konvertiert; PDF-Validierung, Seitenzahl und Textprüfung bestanden. Der zuvor fehlgeschlagene produktive ILIAS-Lauf wurde nicht wiederholt; der nächste reguläre Lauf und die Verarbeitung der tatsächlich betroffenen Datei bleiben zu überprüfen.
+
+2026-11-24: The regular scheduled downloader completed successfully. The previously failing presentation was separately converted with the existing converter in a network-isolated temporary environment, and the resulting PDF passed page validation. The earlier delivery ledger match remained unconfirmed; this conversion test does not establish prior Drive delivery or independent off-host recovery. No second timer or production downloader run was created.
